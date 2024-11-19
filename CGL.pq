@@ -1,4 +1,4 @@
-// All
+
 let
   FilePath = Excel.CurrentWorkbook(){[Name = "FilePathFolder"]}[Content]{0}[Column1], 
   FileName = Excel.CurrentWorkbook(){[Name = "FileName"]}[Content]{0}[Column1], 
